@@ -231,6 +231,10 @@ function App() {
                 Designed for the high performer who values their time as much as their health.
               </p>
 
+              <div className="rounded-2xl border border-[#E53935]/20 bg-[#FFF5F5] px-4 py-3 text-sm text-[#B71C1C] shadow-sm">
+                We’re making lunch easier, smarter, and more joyful for every busy professional.
+              </div>
+
               <div className="flex flex-wrap gap-3">
                 {benefits.map((benefit, idx) => (
                   <div key={idx} className="flex items-center gap-2 px-4 py-2 bg-gray-50 rounded-full border border-gray-100 hover:border-[#E53935]/30 hover:bg-[#E53935]/5 transition-all cursor-default">
@@ -446,7 +450,7 @@ function App() {
           
           <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-500 text-sm">
-              © 2025 LUNCH BOX. All rights reserved.
+              © 2026 LUNCH BOX. All rights reserved.
             </p>
           </div>
         </div>
